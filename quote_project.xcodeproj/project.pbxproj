@@ -7,13 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		416B305540538CA145138804 /* Pods_quote_project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B3EFF955D0A4F88DEFC56D /* Pods_quote_project.framework */; };
+		631D1CA821FFD39C0043C8F0 /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631D1CA721FFD39C0043C8F0 /* RestApiManager.swift */; };
+		631D1CAA21FFDC670043C8F0 /* DummyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631D1CA921FFDC670043C8F0 /* DummyVC.swift */; };
+		631D1CE7220003930043C8F0 /* AuthorImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631D1CE6220003930043C8F0 /* AuthorImage.swift */; };
 		63251CFC21DE9F65009B530E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63251CFB21DE9F65009B530E /* AppDelegate.swift */; };
-		63251CFE21DE9F65009B530E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63251CFD21DE9F65009B530E /* ViewController.swift */; };
 		63251D0121DE9F65009B530E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63251CFF21DE9F65009B530E /* Main.storyboard */; };
 		63251D0321DE9F66009B530E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63251D0221DE9F66009B530E /* Assets.xcassets */; };
 		63251D0621DE9F66009B530E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63251D0421DE9F66009B530E /* LaunchScreen.storyboard */; };
 		63251D1121DE9F66009B530E /* quote_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63251D1021DE9F66009B530E /* quote_projectTests.swift */; };
 		63251D1C21DE9F66009B530E /* quote_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63251D1B21DE9F66009B530E /* quote_projectUITests.swift */; };
+		63251D2A21DEA218009B530E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63251D2921DEA218009B530E /* SearchViewController.swift */; };
+		63251D2E21DEA346009B530E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63251D2D21DEA346009B530E /* NetworkManager.swift */; };
+		6326122C21E7C35600B16DDB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326122B21E7C35600B16DDB /* HomeViewController.swift */; };
+		6326123021EA80FD00B16DDB /* SavedQuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326122F21EA80FD00B16DDB /* SavedQuotesViewController.swift */; };
+		6326123421EA830200B16DDB /* QuoteCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326123321EA830200B16DDB /* QuoteCategoryViewController.swift */; };
+		6326123821EA867D00B16DDB /* QuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326123721EA867D00B16DDB /* QuoteViewController.swift */; };
+		6326123C21EA90A500B16DDB /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326123B21EA90A500B16DDB /* CategoryTableViewCell.swift */; };
+		6326123E21EBC5B100B16DDB /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326123D21EBC5B100B16DDB /* Quote.swift */; };
+		6326124021EBC8AA00B16DDB /* MainNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326123F21EBC8AA00B16DDB /* MainNetworkManager.swift */; };
+		6326124221ED1F0A00B16DDB /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326124121ED1F0A00B16DDB /* Category.swift */; };
+		6326124421EEAF7D00B16DDB /* QuoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326124321EEAF7D00B16DDB /* QuoteTableViewCell.swift */; };
+		6326124621EEC3FA00B16DDB /* QuoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326124521EEC3FA00B16DDB /* QuoteTableViewController.swift */; };
+		6326126C21F3C37600B16DDB /* quote_project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6326126A21F3C37600B16DDB /* quote_project.xcdatamodeld */; };
+		6326127021F57A0300B16DDB /* quote_data in Resources */ = {isa = PBXBuildFile; fileRef = 6326126F21F57A0300B16DDB /* quote_data */; };
+		6326127521F58CDF00B16DDB /* quote_objects.json in Resources */ = {isa = PBXBuildFile; fileRef = 6326127421F58CDE00B16DDB /* quote_objects.json */; };
+		63A68B7E2201298200A681E8 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A68B7D2201298200A681E8 /* PreferencesViewController.swift */; };
+		63A68B80220129FB00A681E8 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A68B7F220129FA00A681E8 /* Preferences.swift */; };
+		63A68B8222024BAE00A681E8 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A68B8122024BAE00A681E8 /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +55,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1821361C26DCD120631EBF22 /* Pods-quote_project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quote_project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-quote_project/Pods-quote_project.debug.xcconfig"; sourceTree = "<group>"; };
+		3C4D762339EC8A5B1077E9AB /* Pods-quote_project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quote_project.release.xcconfig"; path = "Pods/Target Support Files/Pods-quote_project/Pods-quote_project.release.xcconfig"; sourceTree = "<group>"; };
+		60B3EFF955D0A4F88DEFC56D /* Pods_quote_project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quote_project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		631D1CA721FFD39C0043C8F0 /* RestApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = "<group>"; };
+		631D1CA921FFDC670043C8F0 /* DummyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyVC.swift; sourceTree = "<group>"; };
+		631D1CE6220003930043C8F0 /* AuthorImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorImage.swift; sourceTree = "<group>"; };
 		63251CF821DE9F65009B530E /* quote_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quote_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63251CFB21DE9F65009B530E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63251CFD21DE9F65009B530E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		63251D0021DE9F65009B530E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63251D0221DE9F66009B530E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63251D0521DE9F66009B530E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +73,24 @@
 		63251D1721DE9F66009B530E /* quote_projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quote_projectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63251D1B21DE9F66009B530E /* quote_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quote_projectUITests.swift; sourceTree = "<group>"; };
 		63251D1D21DE9F66009B530E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63251D2921DEA218009B530E /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		63251D2D21DEA346009B530E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		6326122B21E7C35600B16DDB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6326122F21EA80FD00B16DDB /* SavedQuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedQuotesViewController.swift; sourceTree = "<group>"; };
+		6326123321EA830200B16DDB /* QuoteCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteCategoryViewController.swift; sourceTree = "<group>"; };
+		6326123721EA867D00B16DDB /* QuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewController.swift; sourceTree = "<group>"; };
+		6326123B21EA90A500B16DDB /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		6326123D21EBC5B100B16DDB /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		6326123F21EBC8AA00B16DDB /* MainNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNetworkManager.swift; sourceTree = "<group>"; };
+		6326124121ED1F0A00B16DDB /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		6326124321EEAF7D00B16DDB /* QuoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteTableViewCell.swift; sourceTree = "<group>"; };
+		6326124521EEC3FA00B16DDB /* QuoteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteTableViewController.swift; sourceTree = "<group>"; };
+		6326126B21F3C37600B16DDB /* quote_project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = quote_project.xcdatamodel; sourceTree = "<group>"; };
+		6326126F21F57A0300B16DDB /* quote_data */ = {isa = PBXFileReference; lastKnownFileType = text; path = quote_data; sourceTree = "<group>"; };
+		6326127421F58CDE00B16DDB /* quote_objects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quote_objects.json; sourceTree = "<group>"; };
+		63A68B7D2201298200A681E8 /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		63A68B7F220129FA00A681E8 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		63A68B8122024BAE00A681E8 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				416B305540538CA145138804 /* Pods_quote_project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +122,13 @@
 		63251CEF21DE9F65009B530E = {
 			isa = PBXGroup;
 			children = (
+				63A68B832202B63B00A681E8 /* Misc */,
 				63251CFA21DE9F65009B530E /* quote_project */,
 				63251D0F21DE9F66009B530E /* quote_projectTests */,
 				63251D1A21DE9F66009B530E /* quote_projectUITests */,
 				63251CF921DE9F65009B530E /* Products */,
+				D0AF0DFDDE89A9944F55D6FC /* Pods */,
+				A530173CC3C4C780B0FEA065 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +145,19 @@
 		63251CFA21DE9F65009B530E /* quote_project */ = {
 			isa = PBXGroup;
 			children = (
+				63A68B8122024BAE00A681E8 /* CategoryViewController.swift */,
+				6326123B21EA90A500B16DDB /* CategoryTableViewCell.swift */,
+				6326122B21E7C35600B16DDB /* HomeViewController.swift */,
+				63A68B7D2201298200A681E8 /* PreferencesViewController.swift */,
+				6326123721EA867D00B16DDB /* QuoteViewController.swift */,
+				63A68B7F220129FA00A681E8 /* Preferences.swift */,
+				6326124321EEAF7D00B16DDB /* QuoteTableViewCell.swift */,
+				63251D2921DEA218009B530E /* SearchViewController.swift */,
 				63251CFB21DE9F65009B530E /* AppDelegate.swift */,
-				63251CFD21DE9F65009B530E /* ViewController.swift */,
+				6326123F21EBC8AA00B16DDB /* MainNetworkManager.swift */,
+				6326124121ED1F0A00B16DDB /* Category.swift */,
+				6326124521EEC3FA00B16DDB /* QuoteTableViewController.swift */,
+				6326123D21EBC5B100B16DDB /* Quote.swift */,
 				63251CFF21DE9F65009B530E /* Main.storyboard */,
 				63251D0221DE9F66009B530E /* Assets.xcassets */,
 				63251D0421DE9F66009B530E /* LaunchScreen.storyboard */,
@@ -125,6 +184,39 @@
 			path = quote_projectUITests;
 			sourceTree = "<group>";
 		};
+		63A68B832202B63B00A681E8 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				6326123321EA830200B16DDB /* QuoteCategoryViewController.swift */,
+				6326126F21F57A0300B16DDB /* quote_data */,
+				63251D2D21DEA346009B530E /* NetworkManager.swift */,
+				6326126A21F3C37600B16DDB /* quote_project.xcdatamodeld */,
+				631D1CA721FFD39C0043C8F0 /* RestApiManager.swift */,
+				631D1CA921FFDC670043C8F0 /* DummyVC.swift */,
+				6326122F21EA80FD00B16DDB /* SavedQuotesViewController.swift */,
+				631D1CE6220003930043C8F0 /* AuthorImage.swift */,
+				6326127421F58CDE00B16DDB /* quote_objects.json */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		A530173CC3C4C780B0FEA065 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60B3EFF955D0A4F88DEFC56D /* Pods_quote_project.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0AF0DFDDE89A9944F55D6FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1821361C26DCD120631EBF22 /* Pods-quote_project.debug.xcconfig */,
+				3C4D762339EC8A5B1077E9AB /* Pods-quote_project.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63251D2021DE9F66009B530E /* Build configuration list for PBXNativeTarget "quote_project" */;
 			buildPhases = (
+				2834D04F83C3F09B0C9C2ED1 /* [CP] Check Pods Manifest.lock */,
 				63251CF421DE9F65009B530E /* Sources */,
 				63251CF521DE9F65009B530E /* Frameworks */,
 				63251CF621DE9F65009B530E /* Resources */,
+				50760E31D426E21D48168415 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,6 +324,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				63251D0621DE9F66009B530E /* LaunchScreen.storyboard in Resources */,
+				6326127021F57A0300B16DDB /* quote_data in Resources */,
+				6326127521F58CDF00B16DDB /* quote_objects.json in Resources */,
 				63251D0321DE9F66009B530E /* Assets.xcassets in Resources */,
 				63251D0121DE9F65009B530E /* Main.storyboard in Resources */,
 			);
@@ -251,13 +347,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2834D04F83C3F09B0C9C2ED1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-quote_project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50760E31D426E21D48168415 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-quote_project/Pods-quote_project-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-quote_project/Pods-quote_project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		63251CF421DE9F65009B530E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63251CFE21DE9F65009B530E /* ViewController.swift in Sources */,
+				63A68B8222024BAE00A681E8 /* CategoryViewController.swift in Sources */,
+				63251D2A21DEA218009B530E /* SearchViewController.swift in Sources */,
+				63251D2E21DEA346009B530E /* NetworkManager.swift in Sources */,
+				6326123821EA867D00B16DDB /* QuoteViewController.swift in Sources */,
+				6326124621EEC3FA00B16DDB /* QuoteTableViewController.swift in Sources */,
+				6326124421EEAF7D00B16DDB /* QuoteTableViewCell.swift in Sources */,
+				6326123021EA80FD00B16DDB /* SavedQuotesViewController.swift in Sources */,
+				6326124021EBC8AA00B16DDB /* MainNetworkManager.swift in Sources */,
+				631D1CE7220003930043C8F0 /* AuthorImage.swift in Sources */,
+				6326123C21EA90A500B16DDB /* CategoryTableViewCell.swift in Sources */,
+				631D1CA821FFD39C0043C8F0 /* RestApiManager.swift in Sources */,
+				63A68B80220129FB00A681E8 /* Preferences.swift in Sources */,
+				6326123421EA830200B16DDB /* QuoteCategoryViewController.swift in Sources */,
+				63A68B7E2201298200A681E8 /* PreferencesViewController.swift in Sources */,
+				6326124221ED1F0A00B16DDB /* Category.swift in Sources */,
+				6326126C21F3C37600B16DDB /* quote_project.xcdatamodeld in Sources */,
 				63251CFC21DE9F65009B530E /* AppDelegate.swift in Sources */,
+				631D1CAA21FFDC670043C8F0 /* DummyVC.swift in Sources */,
+				6326122C21E7C35600B16DDB /* HomeViewController.swift in Sources */,
+				6326123E21EBC5B100B16DDB /* Quote.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +595,7 @@
 		};
 		63251D2121DE9F66009B530E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1821361C26DCD120631EBF22 /* Pods-quote_project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +613,7 @@
 		};
 		63251D2221DE9F66009B530E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C4D762339EC8A5B1077E9AB /* Pods-quote_project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -580,6 +747,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6326126A21F3C37600B16DDB /* quote_project.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6326126B21F3C37600B16DDB /* quote_project.xcdatamodel */,
+			);
+			currentVersion = 6326126B21F3C37600B16DDB /* quote_project.xcdatamodel */;
+			path = quote_project.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 63251CF021DE9F65009B530E /* Project object */;
 }
