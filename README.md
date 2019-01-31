@@ -12,4 +12,4 @@ but the constraints for one ViewController aren't set up
 intact, you can successfully build it. AFTER BUILDING:
 don't press anything. Go back to the code and uncomment 
 everything you commented before. Building the project should
-have allowed the cocoapods to be recognized. Now the app is usable.
+have allowed the cocoapods to be recognized. 
