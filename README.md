@@ -10,6 +10,6 @@ If you comment out the right parts, then the code is intact
 but the constraints for one ViewController aren't set up
 (So the PreferencesViewController is useless basically). When the code is 
 intact, you can successfully build it. AFTER BUILDING:
-don't press anything. Go back to the code and uncomment 
+don't press anything on the simulator. Go back to the code and uncomment 
 everything you commented before. Building the project should
 have allowed the cocoapods to be recognized. 
