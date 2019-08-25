@@ -1,5 +1,5 @@
 # QuickQuotes
-**IMPORTANT
+** POSSIBLE IMPORTANT ISSUES
 When Downloading, the cocoapods will throw errors.
 Go through the motions: Install the cocoapods through terminal.
 The podfile should be ready to go, just do "pod install" in the correct
